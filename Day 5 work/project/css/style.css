@@ -1,0 +1,59 @@
+body{
+    margin:0;
+}
+
+header, nav, section, article, aside, footer{
+    outline: 2px solid #555;
+    outline-offset: 0px;
+    height: 20vh;
+    margin:0;
+    padding:10px;
+    box-sizing: border-box;
+}
+header{ 
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+nav{
+    position: sticky;
+    margin-top: 20vh;
+    background-color: rgb(241, 223, 143);
+    top: 0px;
+}
+
+section, article, aside{
+    width: 50%;
+}
+
+aside{
+    height: 40vh;
+    float: right;
+ background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Peas_in_pods_-_Studio.jpg/440px-Peas_in_pods_-_Studio.jpg");
+  background-repeat: no-repeat;
+background-size: cover;
+}
+footer{
+height: 500px;
+}
+p, a{
+    font-family: sans-serif;
+    margin:0;
+}
+.nav > a > img{
+    height:60px;
+    float: right;
+    margin:10px;
+}
+nav > a{
+    background-color: white;
+    border: 1px solid #aaa;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+}
+nav > a:hover{
+    color: white;
+    background-color: #555;
+}
